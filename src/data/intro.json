@@ -55,66 +55,22 @@
             {
                 "title": "Audit yourself",
                 "description": "description TODO",
-                "goals": [
-                    {
-                        "title": "Google yourself",
-                        "key": "google"
-                    },
-                    {
-                        "title": "WHOIS protection",
-                        "key": "whois"
-                    }
-                ]
+                "goals": ["google", "whois"]
             },
             {
                 "title": "Lock down your social media",
                 "description": "description TODO",
-                "goals": [
-                    {
-                        "title": "Facebook",
-                        "key": "facebook"
-                    },
-                    {
-                        "title": "Twitter",
-                        "key": "twitter"
-                    },
-                    {
-                        "title": "Instagram",
-                        "key": "instagram"
-                    },
-                    {
-                        "title": "More",
-                        "key": "other_social_media"
-                    }
-                ]
+                "goals": ["facebook", "twitter", "instagram", "other_social_media"]
             },
             {
                 "title": "Protect your browsing",
                 "description": "description TODO",
-                "goals": [
-                    {
-                        "title": "secure browsing",
-                        "key": "tor"
-                    },
-                    {
-                        "title": "VPN",
-                        "key": "vpn"
-                    }
-                ]
+                "goals": ["tor","vpn"]
             },
             {
                 "title": "Title",
                 "description": "Remove your info from data brokers",
-                "goals": [
-                    {
-                        "title": "Easy",
-                        "key": "easy_data_remove"
-                    },
-                    {
-                        "title": "Advanced",
-                        "key": "advanced_data_remove"
-                    }
-                ]
+                "goals": ["easy_data_remove", "advanced_data_remove"]
             }
         ]
     }

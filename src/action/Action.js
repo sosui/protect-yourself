@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import Badge from './Badge.js';
-import ReactDOM from 'react-dom'
+import goals from '../data/goals.json';
 
 class Action extends Component {
 
@@ -27,8 +28,9 @@ class Action extends Component {
   render() {
     const showBadge = this.props.data.action && this.props.data.action.type === 'award'
     const badgeUrl = `badges/large/${this.props.goal}.gif`
+    const goalData = goals[this.props.goal];
     return <div>
-        {showBadge && <Badge goal={this.props.goal} color={true} />}
+        {showBadge && <Badge goalData={goalData} complete={true} />}
         <p dangerouslySetInnerHTML={{__html: this.props.data.description}}></p>
         {showBadge && <div>
             <a href={`https://twitter.com/intent/tweet?text=${this.props.data.action.tweet}&hashtags=soyouwanttofightthestate`}>

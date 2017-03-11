@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Badge from './Badge.js';
+import goals from '../data/goals.json';
 
 class Menu extends Component {
 
@@ -14,13 +15,14 @@ class Menu extends Component {
   }
 
   renderGoal = (goal) =>  {
-    const isCompleated = !!this.props.completedGoals[goal.key]
-    const onClick = () => this.props.onStartGoal(goal.key);
+    const goalData = goals[goal];
+    const isCompleated = !!this.props.completedGoals[goal]
+    const onClick = () => this.props.onStartGoal(goal);
     return <div key={goal.key}>
             <p>
-              <Badge onClick={onClick} goal={goal.key} color={isCompleated} />
+              <Badge onClick={onClick} goalData={goalData} complete={isCompleated} />
               <br/>
-              <button onClick={onClick}>{goal.title}</button>
+              <button onClick={onClick}>{goalData.title}</button>
             </p>
         </div>
   }

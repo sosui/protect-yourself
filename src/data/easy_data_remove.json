@@ -3,24 +3,7 @@
         "type": "menu",
         "title": "title",
         "topics": [{
-            "goals": [
-                {
-                    "title": "Addresses",
-                    "key": "Addresses"
-                },
-                {
-                    "title": "Archives",
-                    "key": "Archives"
-                },
-                {
-                    "title": "BeenVerified",
-                    "key": "BeenVerified"
-                },
-                {
-                    "title": "Intelius",
-                    "key": "Intelius"
-                }
-            ]
+            "goals": ["Addresses", "Archives", "BeenVerified", "Intelius"]
         }]
     },
     "yay": {

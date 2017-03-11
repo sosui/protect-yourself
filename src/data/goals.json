@@ -1,0 +1,46 @@
+{
+    "google": {
+        "title": "Google yourself"
+    },
+    "whois": {
+        "title": "WHOIS protection"
+    },
+    "facebook": {
+        "title": "Facebook"
+    },
+    "twitter": {
+        "title": "Twitter"
+    },
+    "instagram": {
+        "title": "Instagram"
+    },
+    "other_social_media": {
+        "title": "More"
+    },
+    "tor": {
+        "title": "secure browsing",
+        "badge": "tor.png",
+        "badge_complete": "tor.gif"
+    },
+    "vpn": {
+        "title": "VPN"
+    },
+    "easy_data_remove": {
+        "title": "Easy"
+    },
+    "advanced_data_remove": {
+        "title": "Advanced"
+    },
+    "Addresses": {
+        "title": "Addresses"
+    },
+    "Archives": {
+        "title": "Archives"
+    },
+    "BeenVerified": {
+        "title": "BeenVerified"
+    },
+    "Intelius": {
+        "title": "Intelius"
+    }
+}
