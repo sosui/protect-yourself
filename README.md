@@ -10,37 +10,52 @@ npm install
 npm start
 ```
 
+### Topics
+
+* Audit yourself
+  * Google yourself
+  * WHOIS protection
+* Lock down your social media
+  * Facebook 
+  * Twitter
+  * Insta
+  * Other
+* Protoect your browsing
+  * Tor
+  * VPN
+* Remove your info from data brokers
+  * Easy
+  * Advanced
+
 ### Sites we want tutorials for
 
-google yourself
-
-Addresses.com
-Archives.com
-BeenVerified.com
-Intelius.com
-PeekYou.com
-PeopleLookup.com
-PeopleSmart.com
-Peoplefinders.com
-PublicRecordsNow.com
-PrivateEye.com
-Spokeo.com
-USA-People-Search.com
-USSearch.com
-ZabaSearch.com
-Anywho.com
-DexKnows.com
-EmailFinder.com
-FreePhoneTracer.com
-LookUpAnyone.com
-Phonebook.com
-PublicRecords.com
-Spock.com
-Switchboard.com
-ThePublicRecords.com
-TopPeopleFinder.com
-Yasni.com
-quanki.com
+* Addresses.com
+* Archives.com
+* BeenVerified.com
+* Intelius.com
+* PeekYou.com
+* PeopleLookup.com
+* PeopleSmart.com
+* Peoplefinders.com
+* PublicRecordsNow.com
+* PrivateEye.com
+* Spokeo.com
+* USA-People-Search.com
+* USSearch.com
+* ZabaSearch.com
+* Anywho.com
+* DexKnows.com
+* EmailFinder.com
+* FreePhoneTracer.com
+* LookUpAnyone.com
+* Phonebook.com
+* PublicRecords.com
+* Spock.com
+* Switchboard.com
+* ThePublicRecords.com
+* TopPeopleFinder.com
+* Yasni.com
+* quanki.com
 
 ### Resources
 
