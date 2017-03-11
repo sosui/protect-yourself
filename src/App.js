@@ -1,36 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import intro from './data/intro.json';
-import google from './data/google.json'
-import whois from './data/whois.json'
-import facebook from './data/facebook.json'
-import twitter from './data/twitter.json'
-import instagram from './data/instagram.json'
-import other_social_media from './data/other_social_media.json'
-import tor from './data/tor.json'
-import vpn from './data/vpn.json'
-import easy_data_remove from './data/easy_data_remove.json'
-import advanced_data_remove from './data/advanced_data_remove.json'
-import Addresses from './data/removal/Addresses.json'
-
+import data from './data/data.js';
 import Step from './action/Step.js';
 import Navigation from './Navigation.js';
-
-const data = {
-  intro,
-  google,
-  whois,
-  facebook,
-  twitter,
-  instagram,
-  other_social_media,
-  tor,
-  vpn,
-  easy_data_remove,
-  advanced_data_remove,
-  Addresses,
-};
 
 class App extends Component {
 
