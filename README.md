@@ -10,6 +10,8 @@ npm install
 npm start
 ```
 
+Don't have npm? Head over to [nodejs.org](https://nodejs.org/) and install the latest version of node js.
+
 ### Topics
 
 * Audit yourself
