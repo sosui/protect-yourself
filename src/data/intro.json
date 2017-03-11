@@ -1,83 +1,118 @@
 {
     "start": {
-        "title": "So we hear you want to fight the state!",
+        "title": "Ready to protect yourself from doxxing?",
         "nextSteps": [
             {
-                "prompt": "Yes! I do.",
-                "step": "fight"
+                "prompt": "What's... 'doxxing'?",
+                "step": "whatis"
             },
             {
-                "prompt": "Not really...",
+                "prompt": "Yeah, let's do it!",
+                "step": "mainMenu"
+            },
+            {
+                "prompt": "Pff, I'm not worried about Doxxing.",
                 "step": "learnMore"
             }
         ]
     },
-    "learnMore": {
-        "title": "You should fight!",
+    "whatis": {
+        "title": "We're glad you asked",
+        "description": "Doxxing is when someone takes your personal information, and posts it publicly online. That information could be your address, phone number, date of birth, or anything else that would allow people to find or harass you.",
         "nextSteps": [
             {
-                "prompt": "Ok, I'll fight",
-                "step": "fight"
+                "prompt": "Oh no, I don't want that to happen.",
+                "step": "whatis2"
+            },
+            {
+                "prompt": "That doesn't sound so bad.",
+                "step": "learnMore"
             }
         ]
     },
-    "fight": {
+    "whatis2": {
+        "title": "We don't either!",
+        "nextSteps": [
+            {
+                "prompt": "Sweet, I'm ready to learn how to protect myself!",
+                "step": "mainMenu"
+            }
+        ]
+    },
+    "learnMore": {
+        "title": "TODO: why you should care about doxxing",
+        "nextSteps": [
+            {
+                "prompt": "Ugh ok, I'm ready to learn how to protect myself.",
+                "step": "mainMenu"
+            }
+        ]
+    },
+    "mainMenu": {
         "type": "menu",
         "title": "How do you want to fight the state?",
         "topics": [
             {
-                "title": "organize",
-                "description": "I want to fight the state with my friends!",
+                "title": "Audit yourself",
+                "description": "description TODO",
                 "goals": [
                     {
-                        "title": "chit-chat",
-                        "key": "signal"
+                        "title": "Google yourself",
+                        "key": "google"
                     },
                     {
-                        "title": "network",
-                        "key": "signalNetwork"
+                        "title": "WHOIS protection",
+                        "key": "whois"
                     }
                 ]
             },
             {
-                "title": "travel",
-                "description": "I want to wander the world with my secrets safe from the state!",
+                "title": "Lock down your social media",
+                "description": "description TODO",
                 "goals": [
                     {
-                        "title": "encrypt",
-                        "key": "encrypt"
+                        "title": "Facebook",
+                        "key": "facebook"
                     },
                     {
-                        "title": "phone passcode",
-                        "key": "phonePasscode"
+                        "title": "Twitter",
+                        "key": "twitter"
+                    },
+                    {
+                        "title": "Instagram",
+                        "key": "instagram"
+                    },
+                    {
+                        "title": "Other",
+                        "key": "other_social_media"
                     }
                 ]
             },
             {
-                "title": "self-defense",
-                "description": "I don't want the state to see what I see or to pretend to be me!",
-                "goals": [
-                    {
-                        "title": "strong passwords",
-                        "key": "passwordManager"
-                    },
-                    {
-                        "title": "2 factor auth",
-                        "key": "twofa"
-                    }
-                ]
-            },
-            {
-                "title": "learn",
-                "description": "I want to learn all kinds of stuff without the state knowing what I know!",
+                "title": "Protect your browsing",
+                "description": "description TODO",
                 "goals": [
                     {
                         "title": "secure browsing",
                         "key": "tor"
                     },
                     {
-                        "title": "search",
-                        "key": "duckduckgo"
+                        "title": "VPN",
+                        "key": "vpn"
+                    }
+                ]
+            },
+            {
+                "title": "Title",
+                "description": "Remove your info from data brokers",
+                "goals": [
+                    {
+                        "title": "Easy",
+                        "key": "easy_data_remove"
+                    },
+                    {
+                        "title": "Advanced",
+                        "key": "advanced_data_remove"
                     }
                 ]
             }

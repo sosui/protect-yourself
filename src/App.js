@@ -2,28 +2,32 @@ import React, { Component } from 'react';
 import './App.css';
 
 import intro from './data/intro.json';
-import signal from './data/signal.json';
-import signalNetwork from './data/signal-network.json';
-import passwordManager from './data/password-manager.json';
-import encrypt from './data/encrypt.json';
-import duckduckgo from './data/duckduckgo.json';
-import phonePasscode from './data/phone-passcode.json';
-import tor from './data/tor.json';
-import twofa from './data/twofa.json';
+import google from './data/google.json'
+import whois from './data/whois.json'
+import facebook from './data/facebook.json'
+import twitter from './data/twitter.json'
+import instagram from './data/instagram.json'
+import other_social_media from './data/other_social_media.json'
+import tor from './data/tor.json'
+import vpn from './data/vpn.json'
+import easy_data_remove from './data/easy_data_remove.json'
+import advanced_data_remove from './data/advanced_data_remove.json'
 
 import Step from './action/Step.js';
 import Navigation from './Navigation.js';
 
 const data = {
-  intro: intro,
-  signal: signal,
-  signalNetwork: signalNetwork,
-  encrypt: encrypt,
-  duckduckgo: duckduckgo,
-  phonePasscode: phonePasscode,
-  passwordManager: passwordManager,
-  tor: tor,
-  twofa: twofa,
+  intro,
+  google,
+  whois,
+  facebook,
+  twitter,
+  instagram,
+  other_social_media,
+  tor,
+  vpn,
+  easy_data_remove,
+  advanced_data_remove,
 };
 
 class App extends Component {
@@ -84,7 +88,7 @@ class App extends Component {
   }
 
   restart = () => {
-    this.updateLocation('intro', ['fight'])
+    this.updateLocation('intro', ['mainMenu'])
   }
 
   back = () => {
@@ -96,7 +100,7 @@ class App extends Component {
   render() {
     const step_data = this.getStepData();
     return <div className="App">
-        <h1>{step_data.title || this.state.goal}</h1>
+        <h1>{(step_data && step_data.title) || this.state.goal}</h1>
         <Step
             onNextStep={this.updateStep}
             onStartGoal={this.startGoal}
