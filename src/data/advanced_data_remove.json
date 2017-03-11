@@ -1,16 +1,27 @@
 {
     "start": {
-        "description": "The first thing",
-        "nextSteps": [
-            {
-                "prompt": "A good response",
-                "step": "yay"
-            },
-            {
-                "prompt": "A bad response",
-                "step": "aww"
-            }
-        ]
+        "type": "menu",
+        "title": "title",
+        "topics": [{
+            "goals": [
+                {
+                    "title": "Addresses",
+                    "key": "Addresses"
+                },
+                {
+                    "title": "Archives",
+                    "key": "Archives"
+                },
+                {
+                    "title": "BeenVerified",
+                    "key": "BeenVerified"
+                },
+                {
+                    "title": "Intelius",
+                    "key": "Intelius"
+                }
+            ]
+        }]
     },
     "yay": {
         "description": "You did the thing!",

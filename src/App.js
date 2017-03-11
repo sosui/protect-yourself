@@ -12,6 +12,7 @@ import tor from './data/tor.json'
 import vpn from './data/vpn.json'
 import easy_data_remove from './data/easy_data_remove.json'
 import advanced_data_remove from './data/advanced_data_remove.json'
+import Addresses from './data/removal/Addresses.json'
 
 import Step from './action/Step.js';
 import Navigation from './Navigation.js';
@@ -28,6 +29,7 @@ const data = {
   vpn,
   easy_data_remove,
   advanced_data_remove,
+  Addresses,
 };
 
 class App extends Component {
