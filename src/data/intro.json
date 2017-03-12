@@ -51,27 +51,27 @@
     },
     "mainMenu": {
         "type": "menu",
-        "title": "How do you want to fight the state?",
+        "title": "How do you want to protect yourself",
         "topics": [
             {
                 "title": "Audit yourself",
-                "description": "description TODO",
+                "description": "What would you do if you were the doxxer?",
                 "goals": ["google", "whois"]
             },
             {
+                "title": "Take down your address",
+                "description": "Remove your info from data brokers",
+                "goals": ["easy_data_remove", "advanced_data_remove"]
+            },
+            {
                 "title": "Lock down your social media",
-                "description": "description TODO",
+                "description": "Protect yourself and your friends",
                 "goals": ["facebook", "twitter", "instagram", "other_social_media"]
             },
             {
                 "title": "Protect your browsing",
-                "description": "description TODO",
+                "description": "If you're researching the enemy, don't let them know who you are",
                 "goals": ["tor","vpn"]
-            },
-            {
-                "title": "Title",
-                "description": "Remove your info from data brokers",
-                "goals": ["easy_data_remove", "advanced_data_remove"]
             }
         ]
     }
