@@ -1,5 +1,6 @@
 # Protect Yourself! An Antidoxx How-to
 
+## [Data folder](https://github.com/MACCNYC/protect-yourself/tree/master/src/data)
 
 ### Get started
 
