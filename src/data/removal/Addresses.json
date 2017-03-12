@@ -1,13 +1,39 @@
 {
     "start": {
-        "description": "The first thing",
+        "description": "Wanna remove yourself?",
         "nextSteps": [
             {
-                "prompt": "A good response",
+                "prompt": "Yes",
+                "step": "lookforyourself"
+            },
+            {
+                "prompt": "No",
+                "step": "aww"
+            }
+        ]
+    },
+     "lookforyourself": {
+        "description": "Go to http://www.addresses.com/ and look for yourself",
+        "nextSteps": [
+            {
+                "prompt": "Oh no I found myself",
+                "step": "removeyourself"
+            },
+            {
+                "prompt": "Yay, I'm not there",
+                "step": "yay"
+            }
+        ]
+    },
+     "removeyourself": {
+        "description": "Go to http://www.addresses.com/optout.php and opt out",
+        "nextSteps": [
+            {
+                "prompt": "Yay, it worked",
                 "step": "yay"
             },
             {
-                "prompt": "A bad response",
+                "prompt": "It didn't work, I'll come back to this later",
                 "step": "aww"
             }
         ]

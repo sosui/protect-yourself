@@ -1,7 +1,8 @@
 {
     "start": {
         "type": "menu",
-        "title": "title",
+        "title": "Remove your info from data brokers",
+        "description": "It should take under a couple hours to remove your information from all of these sites, and they don't require ID or faxing to do it.",
         "topics": [{
             "goals": ["Addresses", "Archives", "BeenVerified", "Intelius"]
         }]
