@@ -40,7 +40,8 @@
         ]
     },
     "learnMore": {
-        "title": "TODO: why you should care about doxxing",
+        "title": "Why should I care about doxxing",
+        "description": "Lots of reasons. Being doxxed can be stressful, and not just for you. It impacts your friends, families, and loved ones. People who are doxxed receive harassment and sometimes their families do too. Also, often the same steps that keep our communities safe from doxxing also keep us safe from state repression.",
         "nextSteps": [
             {
                 "prompt": "Ugh ok, I'm ready to learn how to protect myself.",
