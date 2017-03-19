@@ -13,7 +13,7 @@
         ]
     },
      "lookforyourself": {
-        "description": "Go to http://www.addresses.com/ and look for yourself",
+        "description": "Go to <a href='http://www.addresses.com/'>Addresses.com</a> and look for yourself",
         "nextSteps": [
             {
                 "prompt": "Oh no I found myself",
@@ -26,7 +26,7 @@
         ]
     },
      "removeyourself": {
-        "description": "Go to http://www.addresses.com/optout.php and opt out",
+        "description": "Go to <a href='http://www.addresses.com/optout.php'>Addresses.com opt out</a> and opt out",
         "nextSteps": [
             {
                 "prompt": "Yay, it worked",
