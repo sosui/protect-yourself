@@ -1,6 +1,6 @@
 {
     "start": {
-        "description": "OK, so you want to get off of this website. First, let's see if you're on it. Go to <a href='http://www.addresses.com/'>Addresses.com</a> and look for yourself",
+        "description": "OK, so you want to get off of Spokeo. First, let's see if you're on it. Go to <a href='http://www.spokeo.com/'>Spokeo</a> and look for yourself",
         "nextSteps": [
             {
                 "prompt": "Oh no I found myself",
@@ -13,7 +13,7 @@
         ]
     },
      "removeyourself": {
-        "description": "Go to <a href='http://www.addresses.com/optout.php'>Addresses.com opt out</a> and opt out",
+        "description": "Go to <a href='http://www.spokeo.com/opt_out/new'>Spokeo's opt out form</a> and opt out. You'll have to confirm in an email they send you that you really do want yourself removed.",
         "nextSteps": [
             {
                 "prompt": "Yay, it worked",
@@ -26,7 +26,7 @@
         ]
     },
     "yay": {
-        "description": "You are not on addresses.com!",
+        "description": "You are not on Spokeo!",
         "action": {
             "type": "award",
             "tweet": "I got a merit badge protecting my identity! pic.twitter.com/9VXkpZNclf Check out http://cutealism.com/fight"
