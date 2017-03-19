@@ -39,7 +39,7 @@
         ]
     },
     "yay": {
-        "description": "You did the thing!",
+        "description": "You are not on addresses.com anymore!",
         "action": {
             "type": "award",
             "tweet": "A thing to tweet"
@@ -52,7 +52,7 @@
         ]
     },
     "aww": {
-        "description": "You didn't do the thing",
+        "description": "Maybe come back and try to take yourself off the site some other time.",
         "nextSteps": [
             {
                 "prompt": "bye",
