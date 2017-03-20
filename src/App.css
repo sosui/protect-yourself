@@ -18,6 +18,23 @@ a {
   cursor: pointer;
 }
 
+img {
+  max-width: 100%;
+}
+
+ul {
+  text-align: initial;
+  list-style-type: none;
+}
+
+li:before {
+  content: "\1F496";
+  margin-left: -2em;
+  padding-right: 1em;
+  padding-bottom: 2px;
+  vertical-align: text-top;
+}
+
 .subgoals {
   display: flex;
   flex-wrap: wrap;

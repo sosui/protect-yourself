@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Badge from './Badge.js';
+import Subtasks from './Subtasks.js';
 import goals from '../data/goals.json';
 
 class Action extends Component {
@@ -37,6 +38,8 @@ class Action extends Component {
               Tweet your merit badge</a> or <a
                 download={badgeUrl} href={badgeUrl}>download to share!</a>
           </div>}
+        {this.props.data.subtasks && this.props.data.subtasks.length &&
+          <Subtasks tasks={this.props.data.subtasks} />}
         {this.props.data.nextSteps && this.props.data.nextSteps.map((prompt) =>
             <button
                 key={prompt.step || prompt.goal || "restart"}
